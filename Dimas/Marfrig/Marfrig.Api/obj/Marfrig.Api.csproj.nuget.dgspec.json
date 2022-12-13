@@ -1,0 +1,168 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Dimas\\Marfrig\\Marfrig.Api\\Marfrig.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Dimas\\Marfrig\\Marfrig.Api\\Marfrig.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Dimas\\Marfrig\\Marfrig.Api\\Marfrig.Api.csproj",
+        "projectName": "Marfrig.Api",
+        "projectPath": "C:\\Dimas\\Marfrig\\Marfrig.Api\\Marfrig.Api.csproj",
+        "packagesPath": "C:\\Users\\rodrigodimas\\.nuget\\packages\\",
+        "outputPath": "C:\\Dimas\\Marfrig\\Marfrig.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rodrigodimas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Dimas\\Marfrig\\Marfrig.Biz\\Marfrig.Biz.csproj": {
+                "projectPath": "C:\\Dimas\\Marfrig\\Marfrig.Biz\\Marfrig.Biz.csproj"
+              },
+              "C:\\Dimas\\Marfrig\\Marfrig.Model\\Marfrig.Model.csproj": {
+                "projectPath": "C:\\Dimas\\Marfrig\\Marfrig.Model\\Marfrig.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json.Bson": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Dimas\\Marfrig\\Marfrig.Biz\\Marfrig.Biz.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Dimas\\Marfrig\\Marfrig.Biz\\Marfrig.Biz.csproj",
+        "projectName": "Marfrig.Biz",
+        "projectPath": "C:\\Dimas\\Marfrig\\Marfrig.Biz\\Marfrig.Biz.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Dimas\\Marfrig\\Marfrig.Data\\Marfrig.Data.csproj": {
+                "projectPath": "C:\\Dimas\\Marfrig\\Marfrig.Data\\Marfrig.Data.csproj"
+              },
+              "C:\\Dimas\\Marfrig\\Marfrig.Model\\Marfrig.Model.csproj": {
+                "projectPath": "C:\\Dimas\\Marfrig\\Marfrig.Model\\Marfrig.Model.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Dimas\\Marfrig\\Marfrig.Data\\Marfrig.Data.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Dimas\\Marfrig\\Marfrig.Data\\Marfrig.Data.csproj",
+        "projectName": "Marfrig.Data",
+        "projectPath": "C:\\Dimas\\Marfrig\\Marfrig.Data\\Marfrig.Data.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Dimas\\Marfrig\\Marfrig.Model\\Marfrig.Model.csproj": {
+                "projectPath": "C:\\Dimas\\Marfrig\\Marfrig.Model\\Marfrig.Model.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Dimas\\Marfrig\\Marfrig.Model\\Marfrig.Model.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Dimas\\Marfrig\\Marfrig.Model\\Marfrig.Model.csproj",
+        "projectName": "Marfrig.Model",
+        "projectPath": "C:\\Dimas\\Marfrig\\Marfrig.Model\\Marfrig.Model.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    }
+  }
+}

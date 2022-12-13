@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "IYYeMdmW9IfQC3HBC0uL+5+NPpdNzz5dz71H5fhSdJU=",
+  "Source": "Marfrig.Api",
+  "BasePath": "_content/Marfrig.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
